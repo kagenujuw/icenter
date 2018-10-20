@@ -5,8 +5,8 @@
 	</div>
 </template>
 <script>
-import mHead from '@/components/mHead.vue'
-import mBody from '@/components/mBody.vue'
+import mHead from '@/components/layout/mHead.vue'
+import mBody from '@/components/layout/mBody.vue'
 export default {
 	name:'mIndex',
 	data(){

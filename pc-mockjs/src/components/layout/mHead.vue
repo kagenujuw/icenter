@@ -20,7 +20,7 @@ export default {
 	line-height: 50px;
 	padding: 0px 20px;
 	box-sizing: border-box;
-	background: #0c58ff;
+	background: #409EFF;
 	color:#fff;
 }
 .logo{

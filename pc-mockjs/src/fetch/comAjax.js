@@ -1,7 +1,7 @@
 import axios from 'axios'
 axios.defaults.headers.post['Content-Type'] = 'application/json;charset=UTF-8'
 axios.defaults.timeout = 60000
-axios.defaults.baseURL = process.env.NODE_ENV === 'development'?'http://localhost:3000':'http://api.yibowanbo.com'
+axios.defaults.baseURL = process.env.NODE_ENV === 'development'?'http://localhost:8080':'http://api.yibowanbo.com'
 
 //axios拦截器
 axios.interceptors.request.use(config => {

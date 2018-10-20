@@ -19,3 +19,23 @@ em{font-style:normal}
 li{list-style:none}
 table{border-collapse:collapse;border-spacing:0}
 p{word-wrap:break-word}
+
+::-webkit-scrollbar-track-piece{
+ -webkit-border-radius:0;
+}
+::-webkit-scrollbar{
+ width:8px;
+ height:8px;
+}
+::-webkit-scrollbar-thumb{
+ height:50px;
+ background-color:#eee;
+ -webkit-border-radius:4px;
+ outline-offset:-2px;
+ border: 1px solid #eee;
+}
+::-webkit-scrollbar-thumb:hover{
+ height:50px;
+ background-color:#949494;
+ -webkit-border-radius:4px;
+ }

@@ -5,8 +5,8 @@
 	</div>
 </template>
 <script>
-import mNav from '@/components/mNav.vue'
-import mBodyContent from '@/components/mBodyContent'
+import mNav from '@/components/layout/mNav.vue'
+import mBodyContent from '@/components/layout/mBodyContent'
 export default {
 	name:'mBody',
 	data(){

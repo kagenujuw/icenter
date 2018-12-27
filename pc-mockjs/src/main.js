@@ -2,6 +2,7 @@
 // (runtime-only or standalone) has been set in webpack.base.conf with an alias.
 import Vue from 'vue'
 import App from './App'
+import $ from 'jquery'
 import router from './router'
 import common from './assets/js/common.js'
 import ElementUI from 'element-ui'
@@ -10,6 +11,8 @@ import './assets/css/reset.css'
 import './assets/css/resetElementUi.css'
 import filters from './filters'
 import store from './store/'
+
+import plugin from './plugins/'
 //引入全局过滤器
 Object.keys(filters).forEach((key)=>{
 	Vue.filter(key,filters[key])
@@ -17,6 +20,7 @@ Object.keys(filters).forEach((key)=>{
 
 Vue.use(ElementUI)
 Vue.use(common)
+Vue.use(plugin)
 
 Vue.config.productionTip = false
 

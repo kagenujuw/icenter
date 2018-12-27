@@ -1,6 +1,6 @@
 <template>
 	<div class="allTask">
-		<mTab :title='msg' :allTask='allTask'/>
+		<mTab :title='msg' :allTask='allTask' :loading='loading'/>
 		<mPage :title='msg'/>
 	</div>
 </template>
@@ -10,13 +10,15 @@ import mTab from '@/components/dataBlock/mTab'
 import mPage from '@/components/dataBlock/mPage'
 import api from '@/fetch/api'
 import { Bus } from '@/assets/js/bus'
+import Methods from '@/assets/js/dragWidth.js'
 export default {
 	name:'allTask',
 	data(){
 		return {
 			msg: '这是全部任务',
 			msgType: 'all',
-			allTask:[]
+			allTask:[],
+			loading:false
 		}
 	},
 	components:{
@@ -39,10 +41,13 @@ export default {
 		},
 		async getData(){
 			 let data={pageNo:1,pageSize:100};
+			 this.loading=true;
 			 let getTask=await api.getAllTask(data);
 				console.log(getTask)
 			 this.allTask=getTask;
+			 this.loading=false;
 			 this.$store.dispatch('saveAllTask',this.allTask);
+			 Methods.drag()
 		}
 	}
 }

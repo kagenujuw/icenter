@@ -5,7 +5,7 @@
 				<div :class="['hName',item.enName=='num'?'h-center':'']" v-for="(item,index) in headName" :style="{width:`${item.width}px`}">{{item.name!='num'?item.name:''}}</div>
 			</div>
 		</div>
-		<div class="tabBody" id="tabBody">
+		<div class="tabBody" id="tabBody" v-loading='loading'>
 			<div class="bodywrap" :style="{width:calc()}" v-if="allTask&&allTask.length>0">
 				<div class="row" v-for="(data,index) in allTask">
 					<div :class="['grow-cell',item.enName=='num'?'h-center':'']" v-for='(item,sIndex) in headName' :style="{width:`${item.width}px`}">
@@ -40,7 +40,7 @@ export default {
 			]
 		}
 	},
-	props:['title','allTask'],
+	props:['title','allTask','loading'],
 	mounted(){
 		this.scrollLeft();
 	},
@@ -113,6 +113,7 @@ export default {
 	float:left;
 	width:100%;
 	height:40px;
+	overflow:hidden;
 	border-bottom:#d6d6d6 solid 1px;
 }
 .row:hover{

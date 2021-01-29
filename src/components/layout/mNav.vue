@@ -1,10 +1,10 @@
 <template>
 	<div class="mainLeft">
 		<ul>
-			<router-link tag="li" :to="{path:'/index/allTask'}">全部任务</router-link>
-			<router-link tag="li" :to="{path:'/index/ownTask'}">我负责的</router-link>
-			<router-link tag="li" :to="{path:'/index/partTask'}">我参与的</router-link>
-			<router-link tag="li" :to="{path:'/index/completeTask'}">我完成的</router-link>
+			<router-link tag="li" :to="{path:'/allTask'}">全部任务</router-link>
+			<router-link tag="li" :to="{path:'/ownTask'}">我负责的</router-link>
+			<router-link tag="li" :to="{path:'/partTask'}">我参与的</router-link>
+			<router-link tag="li" :to="{path:'/completeTask'}">我完成的</router-link>
 		</ul>
 	</div>
 </template>

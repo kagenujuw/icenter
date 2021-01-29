@@ -70,7 +70,7 @@ export default {
 	top:0px;
 	right:0px;
 	background:rgba(0,0,0,.5);
-	z-index:2000;
+	z-index:2001;
 	.dialog-wrap{
 		position:fixed;
 		width:300px;

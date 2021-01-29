@@ -2,10 +2,8 @@
 
 > A Vue.js project
 
-##describle
-±¾ÏîÄ¿£¬Ö÷Òª²ÉÓÃµÄ¼¼ÊõÕ¾vue¡¢vue-router¡¢vuex¡¢element-ui¡¢mockjs¡¢axios½øĞĞµ¥Ò³Ó¦ÓÃµÄ¿ª·¢
-pluginsÄ¿Â¼×Ô¼º·â×°ÁËalert¡¢confirm¡¢dialogµÈ²å¼ş
-±¾µØÍ¨¹ımockjs£¬À´Ä£Äâ¼ÙÊı¾İ½øĞĞ¿ª·¢
+#describle
+describle æœ¬é¡¹ç›®ï¼Œä¸»è¦é‡‡ç”¨çš„æŠ€æœ¯ç«™vueã€vue-routerã€vuexã€element-uiã€mockjsã€axiosè¿›è¡Œå•é¡µåº”ç”¨çš„å¼€å‘ pluginsç›®å½•è‡ªå·±å°è£…äº†alertã€confirmã€dialog,loadingç­‰æ’ä»¶ æœ¬åœ°é€šè¿‡mockjsï¼Œæ¥æ¨¡æ‹Ÿå‡æ•°æ®è¿›è¡Œå¼€å‘
 
 ## Build Setup
 

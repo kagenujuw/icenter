@@ -17,3 +17,15 @@
 ```js
 yarn dev
 ```
+> 安装jscpd对项目的代码进行重复率扫描检测
+```
+npm i jscpd -D
+```
+> 配置jscpd的打包命令
+```
+"cpd": "jscpd ./ --config .jscpd.json"
+```
+> 配置生成重复率扫描的的打包报告命令
+```
+"cpd:report": "jscpd ./ --config .jscpd.html-report.json"
+```

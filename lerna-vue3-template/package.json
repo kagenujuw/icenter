@@ -3,9 +3,12 @@
   "private": true,
   "scripts": {
     "bootstrap": "lerna bootstrap",
-    "dev": "lerna bootstrap && cross-env NODE_ENV=development webpack-dev-server --config webpack.config.js"
+    "dev": "lerna bootstrap && cross-env NODE_ENV=development webpack-dev-server --config webpack.config.js",
+    "cpd": "jscpd ./ --config .jscpd.json",
+    "cpd:report": "jscpd ./ --config .jscpd.html-report.json"
   },
   "devDependencies": {
+    "jscpd": "^3.3.26",
     "lerna": "^4.0.0"
   },
   "workspaces": [

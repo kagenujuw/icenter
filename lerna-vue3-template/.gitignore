@@ -9,3 +9,4 @@ lerna-debug.json
 lerna-debug.log
 yarn-error.log
 websrc-dist
+report

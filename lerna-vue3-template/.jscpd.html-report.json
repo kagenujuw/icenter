@@ -1,0 +1,33 @@
+{
+  "reporters": [
+    "html"
+  ],
+  "ignore": [
+    ".idea/**",
+    ".vscode/**",
+    "build/**",
+    "scripts/**",
+    "dist/**",
+    "doc/**",
+    "package/**/node_modules/**",
+    "package/**/dist/**",
+    "public/**",
+    "test/**",
+    "node_modules/**",
+    "**.json",
+    "**.log",
+    "**.tgz",
+    "**.md",
+    "**.test.ts",
+    "**.test.tsx",
+    "**.test.vue",
+    "**.spec.ts",
+    "**.spec.tsx",
+    "** webpack.config.js"
+  ],
+  "blame": true,
+  "min-lines": 10,
+  "min-tokens": 25,
+  "node": "strict",
+  "ouput": "./cpd-report/"
+}

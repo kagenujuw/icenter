@@ -1,0 +1,736 @@
+{
+  "version": "13.1.0",
+  "docProps": {
+    "docPropsCore": {
+      "creator": "吴军",
+      "lastModifiedBy": "www59",
+      "created": "2021-08-07T07:36:00Z",
+      "modified": "2021-08-07T07:37:36Z"
+    },
+    "docPropsApp": {
+      "Application": "Microsoft Excel",
+      "HeadingPairs": {
+        "size": 2,
+        "baseType": "variant",
+        "workbookInfoArray": [
+          {
+            "elementType": "vt:lpstr",
+            "value": "工作表"
+          },
+          {
+            "elementType": "vt:i4",
+            "value": "1"
+          }
+        ]
+      },
+      "TitlesOfParts": {
+        "size": 1,
+        "baseType": "lpstr",
+        "sheetsNameArray": [
+          "Sheet1"
+        ]
+      }
+    },
+    "docPropsCustom": [
+      {
+        "fmtid": "{D5CDD505-2E9C-101B-9397-08002B2CF9AE}",
+        "pid": "2",
+        "name": "KSOProductBuildVer",
+        "propertyItemChildElement": {
+          "vt:lpwstr": "2052-11.1.0.10314"
+        }
+      }
+    ]
+  },
+  "namedStyles": [
+    {
+      "foreColor": "Text 1 0",
+      "themeFont": "Body",
+      "font": "normal normal 14.7px Calibri",
+      "backColor": "Accent 1 80",
+      "name": "20% - Accent1"
+    },
+    {
+      "foreColor": "Text 1 0",
+      "themeFont": "Body",
+      "font": "normal normal 14.7px Calibri",
+      "backColor": "Accent 2 80",
+      "name": "20% - Accent2"
+    },
+    {
+      "foreColor": "Text 1 0",
+      "themeFont": "Body",
+      "font": "normal normal 14.7px Calibri",
+      "backColor": "Accent 3 80",
+      "name": "20% - Accent3"
+    },
+    {
+      "foreColor": "Text 1 0",
+      "themeFont": "Body",
+      "font": "normal normal 14.7px Calibri",
+      "backColor": "Accent 4 80",
+      "name": "20% - Accent4"
+    },
+    {
+      "foreColor": "Text 1 0",
+      "themeFont": "Body",
+      "font": "normal normal 14.7px Calibri",
+      "backColor": "Accent 5 80",
+      "name": "20% - Accent5"
+    },
+    {
+      "foreColor": "Text 1 0",
+      "themeFont": "Body",
+      "font": "normal normal 14.7px Calibri",
+      "backColor": "Accent 6 80",
+      "name": "20% - Accent6"
+    },
+    {
+      "foreColor": "Text 1 0",
+      "themeFont": "Body",
+      "font": "normal normal 14.7px Calibri",
+      "backColor": "Accent 1 60",
+      "name": "40% - Accent1"
+    },
+    {
+      "foreColor": "Text 1 0",
+      "themeFont": "Body",
+      "font": "normal normal 14.7px Calibri",
+      "backColor": "Accent 2 60",
+      "name": "40% - Accent2"
+    },
+    {
+      "foreColor": "Text 1 0",
+      "themeFont": "Body",
+      "font": "normal normal 14.7px Calibri",
+      "backColor": "Accent 3 60",
+      "name": "40% - Accent3"
+    },
+    {
+      "foreColor": "Text 1 0",
+      "themeFont": "Body",
+      "font": "normal normal 14.7px Calibri",
+      "backColor": "Accent 4 60",
+      "name": "40% - Accent4"
+    },
+    {
+      "foreColor": "Text 1 0",
+      "themeFont": "Body",
+      "font": "normal normal 14.7px Calibri",
+      "backColor": "Accent 5 60",
+      "name": "40% - Accent5"
+    },
+    {
+      "foreColor": "Text 1 0",
+      "themeFont": "Body",
+      "font": "normal normal 14.7px Calibri",
+      "backColor": "Accent 6 60",
+      "name": "40% - Accent6"
+    },
+    {
+      "foreColor": "Background 1 0",
+      "themeFont": "Body",
+      "font": "normal normal 14.7px Calibri",
+      "backColor": "Accent 1 40",
+      "name": "60% - Accent1"
+    },
+    {
+      "foreColor": "Background 1 0",
+      "themeFont": "Body",
+      "font": "normal normal 14.7px Calibri",
+      "backColor": "Accent 2 40",
+      "name": "60% - Accent2"
+    },
+    {
+      "foreColor": "Background 1 0",
+      "themeFont": "Body",
+      "font": "normal normal 14.7px Calibri",
+      "backColor": "Accent 3 40",
+      "name": "60% - Accent3"
+    },
+    {
+      "foreColor": "Background 1 0",
+      "themeFont": "Body",
+      "font": "normal normal 14.7px Calibri",
+      "backColor": "Accent 4 40",
+      "name": "60% - Accent4"
+    },
+    {
+      "foreColor": "Background 1 0",
+      "themeFont": "Body",
+      "font": "normal normal 14.7px Calibri",
+      "backColor": "Accent 5 40",
+      "name": "60% - Accent5"
+    },
+    {
+      "foreColor": "Background 1 0",
+      "themeFont": "Body",
+      "font": "normal normal 14.7px Calibri",
+      "backColor": "Accent 6 40",
+      "name": "60% - Accent6"
+    },
+    {
+      "foreColor": "Background 1 0",
+      "themeFont": "Body",
+      "font": "normal normal 14.7px Calibri",
+      "backColor": "Accent 1 0",
+      "name": "Accent1"
+    },
+    {
+      "foreColor": "Background 1 0",
+      "themeFont": "Body",
+      "font": "normal normal 14.7px Calibri",
+      "backColor": "Accent 2 0",
+      "name": "Accent2"
+    },
+    {
+      "foreColor": "Background 1 0",
+      "themeFont": "Body",
+      "font": "normal normal 14.7px Calibri",
+      "backColor": "Accent 3 0",
+      "name": "Accent3"
+    },
+    {
+      "foreColor": "Background 1 0",
+      "themeFont": "Body",
+      "font": "normal normal 14.7px Calibri",
+      "backColor": "Accent 4 0",
+      "name": "Accent4"
+    },
+    {
+      "foreColor": "Background 1 0",
+      "themeFont": "Body",
+      "font": "normal normal 14.7px Calibri",
+      "backColor": "Accent 5 0",
+      "name": "Accent5"
+    },
+    {
+      "foreColor": "Background 1 0",
+      "themeFont": "Body",
+      "font": "normal normal 14.7px Calibri",
+      "backColor": "Accent 6 0",
+      "name": "Accent6"
+    },
+    {
+      "foreColor": "#9c0006",
+      "themeFont": "Body",
+      "font": "normal normal 14.7px Calibri",
+      "backColor": "#ffc7ce",
+      "name": "Bad"
+    },
+    {
+      "foreColor": "#fa7d00",
+      "themeFont": "Body",
+      "font": "normal bold 14.7px Calibri",
+      "borderLeft": {
+        "color": "#7f7f7f",
+        "style": 1
+      },
+      "borderRight": {
+        "color": "#7f7f7f",
+        "style": 1
+      },
+      "borderTop": {
+        "color": "#7f7f7f",
+        "style": 1
+      },
+      "borderBottom": {
+        "color": "#7f7f7f",
+        "style": 1
+      },
+      "diagonalUp": null,
+      "diagonalDown": null,
+      "backColor": "#f2f2f2",
+      "name": "Calculation"
+    },
+    {
+      "foreColor": "#ffffff",
+      "themeFont": "Body",
+      "font": "normal bold 14.7px Calibri",
+      "borderLeft": {
+        "color": "#3f3f3f",
+        "style": 6
+      },
+      "borderRight": {
+        "color": "#3f3f3f",
+        "style": 6
+      },
+      "borderTop": {
+        "color": "#3f3f3f",
+        "style": 6
+      },
+      "borderBottom": {
+        "color": "#3f3f3f",
+        "style": 6
+      },
+      "diagonalUp": null,
+      "diagonalDown": null,
+      "backColor": "#a5a5a5",
+      "name": "Check Cell"
+    },
+    {
+      "backColor": null,
+      "formatter": "_ * #,##0.00_ ;_ * \\-#,##0.00_ ;_ * \"-\"??_ ;_ @_ ",
+      "name": "Comma"
+    },
+    {
+      "backColor": null,
+      "formatter": "_ * #,##0_ ;_ * \\-#,##0_ ;_ * \"-\"_ ;_ @_ ",
+      "name": "Comma [0]"
+    },
+    {
+      "backColor": null,
+      "formatter": "_ \"￥\"* #,##0.00_ ;_ \"￥\"* \\-#,##0.00_ ;_ \"￥\"* \"-\"??_ ;_ @_ ",
+      "name": "Currency"
+    },
+    {
+      "backColor": null,
+      "formatter": "_ \"￥\"* #,##0_ ;_ \"￥\"* \\-#,##0_ ;_ \"￥\"* \"-\"_ ;_ @_ ",
+      "name": "Currency [0]"
+    },
+    {
+      "foreColor": "#7f7f7f",
+      "themeFont": "Body",
+      "font": "italic normal 14.7px Calibri",
+      "backColor": null,
+      "name": "Explanatory Text"
+    },
+    {
+      "foreColor": "#006100",
+      "themeFont": "Body",
+      "font": "normal normal 14.7px Calibri",
+      "backColor": "#c6efce",
+      "name": "Good"
+    },
+    {
+      "foreColor": "Text 2 0",
+      "themeFont": "Body",
+      "font": "normal bold 20px Calibri",
+      "borderLeft": null,
+      "borderRight": null,
+      "borderTop": null,
+      "borderBottom": {
+        "color": "Accent 1 0",
+        "style": 2
+      },
+      "diagonalUp": null,
+      "diagonalDown": null,
+      "backColor": null,
+      "name": "Heading 1"
+    },
+    {
+      "foreColor": "Text 2 0",
+      "themeFont": "Body",
+      "font": "normal bold 17.3px Calibri",
+      "borderLeft": null,
+      "borderRight": null,
+      "borderTop": null,
+      "borderBottom": {
+        "color": "Accent 1 0",
+        "style": 2
+      },
+      "diagonalUp": null,
+      "diagonalDown": null,
+      "backColor": null,
+      "name": "Heading 2"
+    },
+    {
+      "foreColor": "Text 2 0",
+      "themeFont": "Body",
+      "font": "normal bold 14.7px Calibri",
+      "borderLeft": null,
+      "borderRight": null,
+      "borderTop": null,
+      "borderBottom": {
+        "color": "Accent 1 50",
+        "style": 2
+      },
+      "diagonalUp": null,
+      "diagonalDown": null,
+      "backColor": null,
+      "name": "Heading 3"
+    },
+    {
+      "foreColor": "Text 2 0",
+      "themeFont": "Body",
+      "font": "normal bold 14.7px Calibri",
+      "backColor": null,
+      "name": "Heading 4"
+    },
+    {
+      "foreColor": "#3f3f76",
+      "themeFont": "Body",
+      "font": "normal normal 14.7px Calibri",
+      "borderLeft": {
+        "color": "#7f7f7f",
+        "style": 1
+      },
+      "borderRight": {
+        "color": "#7f7f7f",
+        "style": 1
+      },
+      "borderTop": {
+        "color": "#7f7f7f",
+        "style": 1
+      },
+      "borderBottom": {
+        "color": "#7f7f7f",
+        "style": 1
+      },
+      "diagonalUp": null,
+      "diagonalDown": null,
+      "backColor": "#ffcc99",
+      "name": "Input"
+    },
+    {
+      "foreColor": "#fa7d00",
+      "themeFont": "Body",
+      "font": "normal normal 14.7px Calibri",
+      "borderLeft": null,
+      "borderRight": null,
+      "borderTop": null,
+      "borderBottom": {
+        "color": "#ff8001",
+        "style": 6
+      },
+      "diagonalUp": null,
+      "diagonalDown": null,
+      "backColor": null,
+      "name": "Linked Cell"
+    },
+    {
+      "foreColor": "#9c6500",
+      "themeFont": "Body",
+      "font": "normal normal 14.7px Calibri",
+      "backColor": "#ffeb9c",
+      "name": "Neutral"
+    },
+    {
+      "foreColor": "Text 1 0",
+      "themeFont": "Body",
+      "font": "normal normal 14.7px Calibri",
+      "locked": true,
+      "textIndent": 0,
+      "wordWrap": false,
+      "vAlign": 1,
+      "hAlign": 3,
+      "borderLeft": null,
+      "borderRight": null,
+      "borderTop": null,
+      "borderBottom": null,
+      "diagonalUp": null,
+      "diagonalDown": null,
+      "backColor": null,
+      "name": "Normal"
+    },
+    {
+      "borderLeft": {
+        "color": "#b2b2b2",
+        "style": 1
+      },
+      "borderRight": {
+        "color": "#b2b2b2",
+        "style": 1
+      },
+      "borderTop": {
+        "color": "#b2b2b2",
+        "style": 1
+      },
+      "borderBottom": {
+        "color": "#b2b2b2",
+        "style": 1
+      },
+      "diagonalUp": null,
+      "diagonalDown": null,
+      "backColor": "#ffffcc",
+      "name": "Note"
+    },
+    {
+      "foreColor": "#3f3f3f",
+      "themeFont": "Body",
+      "font": "normal bold 14.7px Calibri",
+      "borderLeft": {
+        "color": "#3f3f3f",
+        "style": 1
+      },
+      "borderRight": {
+        "color": "#3f3f3f",
+        "style": 1
+      },
+      "borderTop": {
+        "color": "#3f3f3f",
+        "style": 1
+      },
+      "borderBottom": {
+        "color": "#3f3f3f",
+        "style": 1
+      },
+      "diagonalUp": null,
+      "diagonalDown": null,
+      "backColor": "#f2f2f2",
+      "name": "Output"
+    },
+    {
+      "backColor": null,
+      "formatter": "0%",
+      "name": "Percent"
+    },
+    {
+      "foreColor": "Text 2 0",
+      "themeFont": "Body",
+      "font": "normal bold 24px Calibri",
+      "backColor": null,
+      "name": "Title"
+    },
+    {
+      "foreColor": "Text 1 0",
+      "themeFont": "Body",
+      "font": "normal bold 14.7px Calibri",
+      "borderLeft": null,
+      "borderRight": null,
+      "borderTop": {
+        "color": "Accent 1 0",
+        "style": 1
+      },
+      "borderBottom": {
+        "color": "Accent 1 0",
+        "style": 6
+      },
+      "diagonalUp": null,
+      "diagonalDown": null,
+      "backColor": null,
+      "name": "Total"
+    },
+    {
+      "foreColor": "#ff0000",
+      "themeFont": "Body",
+      "font": "normal normal 14.7px Calibri",
+      "backColor": null,
+      "name": "Warning Text"
+    },
+    {
+      "foreColor": "#0000ff",
+      "textDecoration": 1,
+      "themeFont": "Body",
+      "font": "normal normal 14.7px Calibri",
+      "backColor": null,
+      "name": "超链接"
+    },
+    {
+      "foreColor": "#800080",
+      "textDecoration": 1,
+      "themeFont": "Body",
+      "font": "normal normal 14.7px Calibri",
+      "backColor": null,
+      "name": "已访问的超链接"
+    },
+    {
+      "foreColor": "Text 1 0",
+      "themeFont": "Body",
+      "font": "normal normal 14.7px Calibri",
+      "locked": true,
+      "textIndent": 0,
+      "wordWrap": false,
+      "vAlign": 1,
+      "hAlign": 3,
+      "borderLeft": null,
+      "borderRight": null,
+      "borderTop": null,
+      "borderBottom": null,
+      "diagonalUp": null,
+      "diagonalDown": null,
+      "backColor": null,
+      "formatter": "General",
+      "name": "__builtInStyle49"
+    }
+  ],
+  "startSheetIndex": 0,
+  "activeSheetIndex": 1,
+  "tabStripRatio": 0.6,
+  "sheetCount": 2,
+  "sheets": {
+    "Sheet1": {
+      "name": "Sheet1",
+      "index": 1,
+      "allowCellOverflow": true,
+      "theme": {
+        "name": "Office",
+        "themeColor": {
+          "name": "Office",
+          "text1": {
+            "a": 255,
+            "r": 0,
+            "g": 0,
+            "b": 0
+          },
+          "text2": {
+            "a": 255,
+            "r": 31,
+            "g": 73,
+            "b": 125
+          },
+          "background1": {
+            "a": 255,
+            "r": 255,
+            "g": 255,
+            "b": 255
+          },
+          "background2": {
+            "a": 255,
+            "r": 238,
+            "g": 236,
+            "b": 225
+          },
+          "accent1": {
+            "a": 255,
+            "r": 79,
+            "g": 129,
+            "b": 189
+          },
+          "accent2": {
+            "a": 255,
+            "r": 192,
+            "g": 80,
+            "b": 77
+          },
+          "accent3": {
+            "a": 255,
+            "r": 155,
+            "g": 187,
+            "b": 89
+          },
+          "accent4": {
+            "a": 255,
+            "r": 128,
+            "g": 100,
+            "b": 162
+          },
+          "accent5": {
+            "a": 255,
+            "r": 75,
+            "g": 172,
+            "b": 198
+          },
+          "accent6": {
+            "a": 255,
+            "r": 247,
+            "g": 150,
+            "b": 70
+          },
+          "hyperlink": {
+            "a": 255,
+            "r": 0,
+            "g": 0,
+            "b": 255
+          },
+          "followedHyperlink": {
+            "a": 255,
+            "r": 128,
+            "g": 0,
+            "b": 128
+          }
+        },
+        "headingFont": "Cambria",
+        "bodyFont": "Calibri"
+      },
+      "defaults": {
+        "colHeaderRowHeight": 20,
+        "rowHeaderColWidth": 40,
+        "rowHeight": 19.2,
+        "colWidth": 63
+      },
+      "rowCount": 18,
+      "columnCount": 11,
+      "isSelected": true,
+      "topCellIndex": 0,
+      "leftCellIndex": 0,
+      "selections": {
+        "0": {
+          "row": 17,
+          "rowCount": 1,
+          "col": 10,
+          "colCount": 1
+        },
+        "length": 1
+      },
+      "activeRow": 17,
+      "activeCol": 10,
+      "data": {
+        "defaultDataNode": {
+          "style": {
+            "foreColor": "Text 1 0",
+            "themeFont": "Body",
+            "font": "normal normal 14.7px Calibri",
+            "locked": true,
+            "textIndent": 0,
+            "wordWrap": false,
+            "vAlign": 1,
+            "hAlign": 3,
+            "borderLeft": null,
+            "borderRight": null,
+            "borderTop": null,
+            "borderBottom": null,
+            "diagonalUp": null,
+            "diagonalDown": null,
+            "backColor": null
+          }
+        }
+      },
+      "printInfo": {
+        "margin": {
+          "top": 72,
+          "bottom": 72,
+          "left": 67,
+          "right": 67,
+          "header": 29,
+          "footer": 29
+        },
+        "paperSize": {
+          "kind": 9
+        },
+        "blackAndWhite": false,
+        "orientation": 1,
+        "pageOrder": 1,
+        "zoomFactor": 1
+      },
+      "tables": []
+    },
+    "Evaluation Version": {
+      "name": "Evaluation Version",
+      "index": 0,
+      "allowCellOverflow": true,
+      "defaults": {
+        "colHeaderRowHeight": 20,
+        "rowHeaderColWidth": 40,
+        "rowHeight": 30,
+        "colWidth": 60
+      },
+      "rowCount": 20,
+      "columnCount": 20,
+      "data": {
+        "dataTable": {
+          "1": {
+            "1": {
+              "value": "Powered by GrapeCity Spread.Sheets."
+            }
+          },
+          "2": {
+            "1": {
+              "value": "You can only deploy this EVALUATION version locally. "
+            }
+          },
+          "3": {
+            "1": {
+              "value": "Temporary deployment keys are available for testing. "
+            }
+          },
+          "4": {
+            "1": {
+              "value": "Email us.sales@grapecity.com."
+            }
+          }
+        }
+      }
+    }
+  }
+}

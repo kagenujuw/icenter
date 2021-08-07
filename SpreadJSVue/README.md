@@ -2,14 +2,18 @@
 
 >This sample shows how to use Spread.Sheets VueJS  Wrapper in VueJS project.
 
-## Quick Overview
-
-``` bash
-# install dependencies
-npm install
-
-# serve with hot reload at localhost:8080
+> 此工程主要是引入spreadjs，测试spreadjs的功能
+* 安装执行
+```
+npm i
+```
+*  启动
+```
 npm run dev
+```
+> 此工程主要用于本人测试spreadjs支持本地Excel的导入和导出
+  * 支持Excel模板的导入和导出
+  * 支持非模板的导入和导出（需要暂存元数据格式）
 ```
 
 ## About Spread.Sheets VueJS Component

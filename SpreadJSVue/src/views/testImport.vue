@@ -3,6 +3,11 @@
     <p>此页面用于测试Excel的导入</p>
     <div>
       <input type="file" id="fileDemo" class="input" accept=".xlsx" @change="importExcel">
+      </br>
+      </br>
+      <input type="text" :value="value" id="test" class="input" @blur="blur"><input type="button" @click="getRemove" value="获取远程数据">
+      </br>
+      </br>
       <input type="button" @click="exportXlsx('yes')" value="带模板导出">
       <input type="button" @click="exportXlsx('no')" value="无模板导出">
       <input type="button" @click="download" value="下载json数据">
@@ -12,11 +17,12 @@
 <script>
 import ExcelIO from '@grapecity/spread-excelio';
 import FaverSaver from 'file-saver'
-import CommandsVue from './Commands.vue';
+import axios from "axios"
 export default {
   name: "TestImport",
   data() {
     return {
+      value: "api/file",
       tempData: {},
       excelIo:null,
     }
@@ -25,13 +31,52 @@ export default {
     this.excelIo = new ExcelIO.IO();
   },
   methods:{
+    blur() {
+      console.log(222)
+    },
+    getRemove() {
+      axios({
+        method: "post",
+        url: this.value, 
+        data: {
+          test: "test data",
+        },
+        responseType: 'blob'
+      }).then(res => {
+        const url = window.URL.createObjectURL(res.data);
+        console.log(url)
+        const a = document.createElement("a");
+        a.href = url;
+        a.download = "template.xlsx";
+        document.body.appendChild(a);
+        a.click();
+        a.remove();
+      });
+    },
+    getRemove1() {
+      axios.get(this.value,{
+        params: {
+          userid: '9999'
+        },
+        headers: {
+          'Content-Type': 'application/octet-stream',
+          token: 'xxxxxxxxx'
+        },
+        responseType: 'blob',
+        before: function() {
+          console.log('before init');
+        }
+      }).then(res => {
+        console.log(res.data)
+      }).catch(err => {
+        console.log(err)
+      })
+    },
     importExcel(e) {
       let excelFile = e.target.files[0];
       this.excelIo.open(excelFile, (json) => {
         this.tempData = json;
-        
       }, function (e) {
-        
       });
     },
     processData(type) {

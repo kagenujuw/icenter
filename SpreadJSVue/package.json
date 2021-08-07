@@ -10,16 +10,17 @@
     "build": "node build/build.js"
   },
   "dependencies": {
-    "vue": "^2.5.2",
-    "vue-router": "^3.0.1",
+    "@grapecity/spread-excelio": "13.1.0",
     "@grapecity/spread-sheets": "13.1.0",
-    "@grapecity/spread-sheets-vue": "13.1.0",
+    "@grapecity/spread-sheets-charts": "13.1.0",
     "@grapecity/spread-sheets-print": "13.1.0",
     "@grapecity/spread-sheets-resources-zh": "13.1.0",
-    "@grapecity/spread-excelio": "13.1.0",
-    "@grapecity/spread-sheets-charts": "13.1.0",
+    "@grapecity/spread-sheets-vue": "13.1.0",
+    "axios": "^0.21.1",
     "file-saver": "2.0.2",
-    "jquery": "2.2.1"
+    "jquery": "2.2.1",
+    "vue": "^2.5.2",
+    "vue-router": "^3.0.1"
   },
   "devDependencies": {
     "autoprefixer": "^7.1.2",

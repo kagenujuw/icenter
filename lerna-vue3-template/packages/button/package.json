@@ -9,7 +9,7 @@
   "author": "hookview <18260439083@163.com>",
   "homepage": "http://button",
   "license": "ISC",
-  "main": "lib/button.js",
+  "main": "button/index.ts",
   "directories": {
     "lib": "lib",
     "test": "__tests__"

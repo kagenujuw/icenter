@@ -1,13 +1,16 @@
 <template>
   <HookButton @click="test"></HookButton>
+  <test></test>
 </template>
 
 <script>
 import HookButton from '@kage/wj-button';
 import alert from "@kage/wj-alert";
+import test from "./components/test.vue"
 export default {
   components: {
-    HookButton
+    HookButton,
+    test
   },
   methods: {
     test() {

@@ -15,6 +15,7 @@ import HTMLCellType from '@/views/HTMLCellType'
 import Commands from '@/views/Commands'
 import Filter from '@/views/Filter'
 import TestImport from '@/views/testImport'
+import drag from '@/views/drag'
 
 Vue.use(Router)
 
@@ -69,6 +70,11 @@ export default new Router({
       path: '/testImport',
       name: 'TestImport',
       component: TestImport
+    },
+    {
+      path: '/drag',
+      name: 'drag',
+      component: drag
     },
     {
       path: '/Events',

@@ -2,7 +2,7 @@
   <div id="app">
     <sample-header></sample-header>
     <div class="content">
-      <div class="nav">
+      <div class="nav" v-if="$route.name !=='drag'">
         <sample-nav></sample-nav>
       </div>
       <div>

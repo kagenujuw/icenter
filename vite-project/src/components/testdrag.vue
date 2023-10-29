@@ -1,6 +1,7 @@
 <template>
   <div class="container">
       <!-- 自定义布局的部分 -->
+      <component :is="test" />
       <div class="grid-box" >
           <grid-layout ref="gridLayout" v-model:layout="layout" :col-num="12" :row-height="30" :is-draggable="true" :is-resizable="true" :is-mirrored="false" :vertical-compact="true" :margin="[10, 10]" :use-css-transforms="true">
               <grid-item ref="gridItem" @resized="resizedEvent" v-for="item in layout" :x="item.x" :y="item.y" :w="item.w" :h="item.h" :i="item.i" :key="item.i">
@@ -20,6 +21,9 @@
 
 <script setup >
 import { onMounted, ref, getCurrentInstance, defineAsyncComponent } from 'vue'
+// import { System } from 'systemjs';
+
+const test = ref(null);
 const { proxy } = getCurrentInstance()
 const layout = ref([])
 const colNum = 12
@@ -67,6 +71,26 @@ const componentsInfo = [
 ]
 let currentDragCom = null
 onMounted(() => {
+
+    System.import('http://localhost:5173/static/js/index.js').then(res => {
+        console.log(res)
+        const res1 = res.default.manifest
+        console.log(res1)
+        test.value = res1;
+
+        const obj = {
+            id: '1-1',
+            title: '图表-年度统计仪表盘',
+            name: 'annualOutput',
+            component: res1,
+            loadComp: res1,
+            des: '图表-年度统计仪表盘',
+            w: 2,
+            h: 3
+        };
+        layout.value.push(obj)
+    })
+
   document.addEventListener('dragover', (e) => {
       e.preventDefault()
       mouseXY.x = e.clientX;

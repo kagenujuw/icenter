@@ -1,6 +1,6 @@
 <template>
     <div id="app">
-        <div>我正在学习编程</div>
+      <div class="header">我是头部</div>
         <h1 style="text-align: center">Vue Grid Layout</h1>
         <!--<pre>{{ layout | json }}</pre>-->
         <div>

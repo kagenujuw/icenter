@@ -9,7 +9,10 @@
     "preview": "vite preview"
   },
   "dependencies": {
+    "sass": "^1.69.5",
+    "sass-loader": "^13.3.2",
     "vue": "^3.3.4",
+    "vue-grid-layout": "3.0.0-beta1",
     "xlsx": "^0.18.5",
     "xlsx-style-vite": "^0.0.2"
   },

@@ -1,13 +1,7 @@
-<script setup lang="ts">
-import { ref } from 'vue'
-import example from './example.vue';
-
-defineProps<{ msg: string }>()
-
-const count = ref(0)
-</script>
-
 <template>
+  <testDrag/>
+  <br/>
+  <!-- <pageDrag/> -->
   <h1>{{ msg }}</h1>
 
   <div class="card">
@@ -17,7 +11,7 @@ const count = ref(0)
       <code>components/HelloWorld.vue</code> to test HMR
     </p>
   </div>
-<example/>
+<!-- <example/> -->
   <p>
     Check out
     <a href="https://vuejs.org/guide/quick-start.html#local" target="_blank"
@@ -31,6 +25,19 @@ const count = ref(0)
   </p>
   <p class="read-the-docs">Click on the Vite and Vue logos to learn more</p>
 </template>
+
+<script setup lang="ts">
+import { ref } from 'vue'
+// import example from './example.vue';
+import pageDrag from './pageDrag.vue'
+import testDrag from './testdrag.vue'
+
+defineProps<{ msg: string }>()
+
+const count = ref(0)
+</script>
+
+
 
 <style scoped>
 .read-the-docs {

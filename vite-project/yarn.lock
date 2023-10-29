@@ -117,6 +117,116 @@
   resolved "https://registry.npmmirror.com/@esbuild/win32-x64/-/win32-x64-0.18.20.tgz#786c5f41f043b07afb1af37683d7c33668858f6d"
   integrity sha512-kTdfRcSiDfQca/y9QIkng02avJ+NCaQvrMejlsB3RRv5sE9rRoeBPISaZpKxHELzRxZyLvNts1P27W3wV+8geQ==
 
+"@interactjs/actions@1.10.19", "@interactjs/actions@^1.10.2":
+  version "1.10.19"
+  resolved "https://registry.npmmirror.com/@interactjs/actions/-/actions-1.10.19.tgz#6afc015741f3d802b75204a06bbf52837ea87b4f"
+  integrity sha512-mZyx1MZx5/IoLj9zg/5IZ8LmO98XGUQ3IJoDfSM7sY5yTo/WgHY0v4fdLCy8ssx5X2n1VEPV889J7u8+42kavw==
+  optionalDependencies:
+    "@interactjs/interact" "1.10.19"
+
+"@interactjs/auto-scroll@1.10.19":
+  version "1.10.19"
+  resolved "https://registry.npmmirror.com/@interactjs/auto-scroll/-/auto-scroll-1.10.19.tgz#69869f3668595d0951369f5fd4182e08f7227d11"
+  integrity sha512-zbU8fzhKgVlbNcU9CYCciFVeyCcxd+5Ny9lexsOh6Q2Ra7hXf/bW6LXitylLE22PPlY76kVK3+4yQD2d7Fb7rA==
+  optionalDependencies:
+    "@interactjs/interact" "1.10.19"
+
+"@interactjs/auto-start@1.10.19", "@interactjs/auto-start@^1.10.2":
+  version "1.10.19"
+  resolved "https://registry.npmmirror.com/@interactjs/auto-start/-/auto-start-1.10.19.tgz#e361b50ed6521e213cd4d2e2a038a4385911d505"
+  integrity sha512-WifIomXIV9MWWHEz3zrMN6n+wl+9IshMVIUsbvx13AM4oiL4832A0JUNrCkL5m6BUTn7iw5CpIdwtnBh+OCYSQ==
+  optionalDependencies:
+    "@interactjs/interact" "1.10.19"
+
+"@interactjs/core@1.10.19":
+  version "1.10.19"
+  resolved "https://registry.npmmirror.com/@interactjs/core/-/core-1.10.19.tgz#423d8229e4b1b3b4df7d3a71aab4c36180f8a221"
+  integrity sha512-4Mq7+pXFq7aCJXh0RRdS9j+PJPi5yHbZsOLpryWFQMQ6GeKPaiu3d97rY4gjhW7SVa+l82QGCMEI0T7ib4DqsA==
+
+"@interactjs/dev-tools@1.10.19", "@interactjs/dev-tools@^1.10.2":
+  version "1.10.19"
+  resolved "https://registry.npmmirror.com/@interactjs/dev-tools/-/dev-tools-1.10.19.tgz#c9414b587b2b1fee07056f48b218519b72b2cf96"
+  integrity sha512-FfsOp8nQ/Gduhz25axLzezOnrMl1V+1gkKBCIXaEwlBzFOycJ+YOjgolajPVgC/26UjHMSKy4vIXfD6hLTJpfw==
+  optionalDependencies:
+    "@interactjs/interact" "1.10.19"
+
+"@interactjs/inertia@1.10.19":
+  version "1.10.19"
+  resolved "https://registry.npmmirror.com/@interactjs/inertia/-/inertia-1.10.19.tgz#b4acf3fe5a747403533004bce874acc08c583b2d"
+  integrity sha512-A01Ddqb/6vqWcYaFcW1rwB8e+W1YGY9mR6D6ECt2w3ndmQbMBGWLYvf/smM8kAkL0daqzeCT2uI/n6EHS+sQXQ==
+  dependencies:
+    "@interactjs/offset" "1.10.19"
+  optionalDependencies:
+    "@interactjs/interact" "1.10.19"
+
+"@interactjs/interact@1.10.19":
+  version "1.10.19"
+  resolved "https://registry.npmmirror.com/@interactjs/interact/-/interact-1.10.19.tgz#393ff7dd582d3f6740237342c7ff85b475d222a6"
+  integrity sha512-PS89zWBgv8nfMKAxP41SPC/M4Uk6aXfzXTHDStu0j/Og2+hM8U0PAUcQ5VVyZoIczssM0iPi8SP59kuTp0IVrg==
+  dependencies:
+    "@interactjs/core" "1.10.19"
+    "@interactjs/utils" "1.10.19"
+
+"@interactjs/interactjs@^1.10.2":
+  version "1.10.19"
+  resolved "https://registry.npmmirror.com/@interactjs/interactjs/-/interactjs-1.10.19.tgz#be192b552f71d3a67039a48255a3e9fef1b8e889"
+  integrity sha512-3Vgwj/i2wyKBEs7ms1SB+GImNqbavoE5+5xFq0Ui+JU9QAqblaRLcslWbuOROho6ejx5/lQjxQ0iEr2oI7gwJA==
+  dependencies:
+    "@interactjs/actions" "1.10.19"
+    "@interactjs/auto-scroll" "1.10.19"
+    "@interactjs/auto-start" "1.10.19"
+    "@interactjs/core" "1.10.19"
+    "@interactjs/dev-tools" "1.10.19"
+    "@interactjs/inertia" "1.10.19"
+    "@interactjs/interact" "1.10.19"
+    "@interactjs/modifiers" "1.10.19"
+    "@interactjs/offset" "1.10.19"
+    "@interactjs/pointer-events" "1.10.19"
+    "@interactjs/reflow" "1.10.19"
+    "@interactjs/utils" "1.10.19"
+
+"@interactjs/modifiers@1.10.19", "@interactjs/modifiers@^1.10.2":
+  version "1.10.19"
+  resolved "https://registry.npmmirror.com/@interactjs/modifiers/-/modifiers-1.10.19.tgz#66e6719245ef8cbf8eed24247c9f49ea2cc90048"
+  integrity sha512-qkUHwgTxlC4W4rLFaz64WyBOo/laVz+s0uUJsHDCzdzAz5ZGguMM6Cvnt8EJ04eZWqrZ2zGAF1dzHFe07XB6Qg==
+  dependencies:
+    "@interactjs/snappers" "1.10.19"
+  optionalDependencies:
+    "@interactjs/interact" "1.10.19"
+
+"@interactjs/offset@1.10.19":
+  version "1.10.19"
+  resolved "https://registry.npmmirror.com/@interactjs/offset/-/offset-1.10.19.tgz#45ac112db48dc89592301f6145fa87ad909dd7a0"
+  integrity sha512-3fa0/BbAyGqkjghTTIs4HTlhGDL5Nh6GtCUk9QQE+BVnTl6b7iaVumvvOij6ih6IMqBRf5ignRIbt6ndZe75/g==
+  optionalDependencies:
+    "@interactjs/interact" "1.10.19"
+
+"@interactjs/pointer-events@1.10.19":
+  version "1.10.19"
+  resolved "https://registry.npmmirror.com/@interactjs/pointer-events/-/pointer-events-1.10.19.tgz#dd15de39c9cd4adbea7beaa8351c84315b4bf3c3"
+  integrity sha512-Pp8sFW9V5krHUcNs9321RG+F6ylgHAjsefEBpAV15zqxEkcyutiOguTCDuXlZ2lewrfT4G2skRKv5p5lMJ6taw==
+  optionalDependencies:
+    "@interactjs/interact" "1.10.19"
+
+"@interactjs/reflow@1.10.19":
+  version "1.10.19"
+  resolved "https://registry.npmmirror.com/@interactjs/reflow/-/reflow-1.10.19.tgz#53077e9debed3be5a2240957ada33f9b7c749329"
+  integrity sha512-0MAZTs/3Gss2SECdDY2fzCU+mzXBmuOIBDrMsEg1c18DDq+fkeS6Ny9wQ5YR8iyTgv+xZEy+PG8Q9tv6BQhatg==
+  optionalDependencies:
+    "@interactjs/interact" "1.10.19"
+
+"@interactjs/snappers@1.10.19":
+  version "1.10.19"
+  resolved "https://registry.npmmirror.com/@interactjs/snappers/-/snappers-1.10.19.tgz#f98577124476304eb01826cb186bf394c9dfe653"
+  integrity sha512-JZUSecoiSx96Z1x8BYg8ZPPicgFt6KKHAQ578x4oEuqMQqpHz9SbWk2PdW9b0JcrkdxPx42Ot01eTDFyGmPq3g==
+  optionalDependencies:
+    "@interactjs/interact" "1.10.19"
+
+"@interactjs/utils@1.10.19":
+  version "1.10.19"
+  resolved "https://registry.npmmirror.com/@interactjs/utils/-/utils-1.10.19.tgz#0d5a4274dd711d3cd344b97144b133fe1d129bfd"
+  integrity sha512-jfMCmSkVgzb6g2L1kyUNJWqRRajMQgmv0yLJwVNHjeQAe9Hxe5b+iAQUYUan4XtrtWuruXz8VAF9P3RH9qOGpQ==
+
 "@jridgewell/sourcemap-codec@^1.4.15":
   version "1.4.15"
   resolved "https://registry.npmmirror.com/@jridgewell/sourcemap-codec/-/sourcemap-codec-1.4.15.tgz#d7c6e6755c78567a951e04ab52ef0fd26de59f32"
@@ -265,10 +375,28 @@ adler-32@, adler-32@~1.3.0:
   resolved "https://registry.npmmirror.com/adler-32/-/adler-32-1.3.1.tgz#1dbf0b36dda0012189a32b3679061932df1821e2"
   integrity sha512-ynZ4w/nUUv5rrsR8UUGoe1VC9hZj6V5hU9Qw1HlMDJGEJw5S7TfTErWTjMys6M7vr0YWcPqs3qAr4ss0nDfP+A==
 
+anymatch@~3.1.2:
+  version "3.1.3"
+  resolved "https://registry.npmmirror.com/anymatch/-/anymatch-3.1.3.tgz#790c58b19ba1720a84205b57c618d5ad8524973e"
+  integrity sha512-KMReFUr0B4t+D+OBkjR3KYqvocp2XaSzO55UcB6mgQMd3KbcE+mWTyvVV7D/zsdEbNnV6acZUutkiHQXvTr1Rw==
+  dependencies:
+    normalize-path "^3.0.0"
+    picomatch "^2.0.4"
+
 balanced-match@^1.0.0:
   version "1.0.2"
   resolved "https://registry.npmmirror.com/balanced-match/-/balanced-match-1.0.2.tgz#e83e3a7e3f300b34cb9d87f615fa0cbf357690ee"
   integrity sha512-3oSeUO0TMV67hN1AmbXsK4yaqU7tjiHlbxRDZOpH0KW9+CeX4bRAaX0Anxt0tx2MrpRpWwQaPwIlISEJhYU5Pw==
+
+batch-processor@1.0.0:
+  version "1.0.0"
+  resolved "https://registry.npmmirror.com/batch-processor/-/batch-processor-1.0.0.tgz#75c95c32b748e0850d10c2b168f6bdbe9891ace8"
+  integrity sha512-xoLQD8gmmR32MeuBHgH0Tzd5PuSZx71ZsbhVxOCRbgktZEPe4SQy7s9Z50uPp0F/f7iw2XmkHN2xkgbMfckMDA==
+
+binary-extensions@^2.0.0:
+  version "2.2.0"
+  resolved "https://registry.npmmirror.com/binary-extensions/-/binary-extensions-2.2.0.tgz#75f502eeaf9ffde42fc98829645be4ea76bd9e2d"
+  integrity sha512-jDctJ/IVQbZoJykoeHbhXpOlNBqGNcwXJKJog42E5HDPUwQTSdjCHdihjj0DlnheQ7blbT6dHOafNAiS8ooQKA==
 
 brace-expansion@^2.0.1:
   version "2.0.1"
@@ -276,6 +404,13 @@ brace-expansion@^2.0.1:
   integrity sha512-XnAIvQ8eM+kC6aULx6wuQiwVsnzsi9d3WxzV3FpWTGA19F621kwdbsAcFKXgKUHZWsy+mY6iL1sHTxWEFCytDA==
   dependencies:
     balanced-match "^1.0.0"
+
+braces@~3.0.2:
+  version "3.0.2"
+  resolved "https://registry.npmmirror.com/braces/-/braces-3.0.2.tgz#3454e1a462ee8d599e236df336cd9ea4f8afe107"
+  integrity sha512-b8um+L1RzM3WDSzvhm6gIz1yfTbBt6YTlcEKAvsmqCZZFw46z626lVj9j1yEPW33H5H+lBQpZMP1k8l+78Ha0A==
+  dependencies:
+    fill-range "^7.0.1"
 
 buffer-from@^1.0.0:
   version "1.1.2"
@@ -289,6 +424,21 @@ cfb@>=0.10.0, cfb@~1.2.1:
   dependencies:
     adler-32 "~1.3.0"
     crc-32 "~1.2.0"
+
+"chokidar@>=3.0.0 <4.0.0":
+  version "3.5.3"
+  resolved "https://registry.npmmirror.com/chokidar/-/chokidar-3.5.3.tgz#1cf37c8707b932bd1af1ae22c0432e2acd1903bd"
+  integrity sha512-Dr3sfKRP6oTcjf2JmUmFJfeVMvXBdegxB0iVQ5eb2V10uFJUCAS8OByZdVAyVb8xXNz3GjjTgj9kLWsZTqE6kw==
+  dependencies:
+    anymatch "~3.1.2"
+    braces "~3.0.2"
+    glob-parent "~5.1.2"
+    is-binary-path "~2.1.0"
+    is-glob "~4.0.1"
+    normalize-path "~3.0.0"
+    readdirp "~3.6.0"
+  optionalDependencies:
+    fsevents "~2.3.2"
 
 codepage@~1.15.0:
   version "1.15.0"
@@ -339,6 +489,13 @@ de-indent@^1.0.2:
   resolved "https://registry.npmmirror.com/de-indent/-/de-indent-1.0.2.tgz#b2038e846dc33baa5796128d0804b455b8c1e21d"
   integrity sha512-e/1zu3xH5MQryN2zdVaF0OrdNLUbvWxzMbi+iNA6Bky7l1RoP8a2fIbRocyHclXt/arDrrR6lL3TqFD9pMQTsg==
 
+element-resize-detector@^1.2.1:
+  version "1.2.4"
+  resolved "https://registry.npmmirror.com/element-resize-detector/-/element-resize-detector-1.2.4.tgz#3e6c5982dd77508b5fa7e6d5c02170e26325c9b1"
+  integrity sha512-Fl5Ftk6WwXE0wqCgNoseKWndjzZlDCwuPTcoVZfCP9R3EHQF8qUtr3YUPNETegRBOKqQKPW3n4kiIWngGi8tKg==
+  dependencies:
+    batch-processor "1.0.0"
+
 esbuild@^0.18.10:
   version "0.18.20"
   resolved "https://registry.npmmirror.com/esbuild/-/esbuild-0.18.20.tgz#4709f5a34801b43b799ab7d6d82f7284a9b7a7a6"
@@ -372,6 +529,13 @@ estree-walker@^2.0.2:
   resolved "https://registry.npmmirror.com/estree-walker/-/estree-walker-2.0.2.tgz#52f010178c2a4c117a7757cfe942adb7d2da4cac"
   integrity sha512-Rfkk/Mp/DL7JVje3u18FxFujQlTNR2q6QfMSMB7AvCBx91NGj/ba3kCfza0f6dVDbw7YlRf/nDrn7pQrCCyQ/w==
 
+fill-range@^7.0.1:
+  version "7.0.1"
+  resolved "https://registry.npmmirror.com/fill-range/-/fill-range-7.0.1.tgz#1919a6a7c75fe38b2c7c77e5198535da9acdda40"
+  integrity sha512-qOo9F+dMUmC2Lcb4BbVvnKJxTPjCm+RRpe4gDuGrzkL7mEVl/djYSu2OdQ2Pa302N4oqkSg9ir6jaLWJ2USVpQ==
+  dependencies:
+    to-regex-range "^5.0.1"
+
 frac@0.3.1:
   version "0.3.1"
   resolved "https://registry.npmmirror.com/frac/-/frac-0.3.1.tgz#577677b7fdcbe6faf7c461f1801d34137cda4354"
@@ -387,15 +551,51 @@ fsevents@~2.3.2:
   resolved "https://registry.npmmirror.com/fsevents/-/fsevents-2.3.3.tgz#cac6407785d03675a2a5e1a5305c697b347d90d6"
   integrity sha512-5xoDfX+fL7faATnagmWPpbFtwh/R77WmMMqqHGS65C3vvB0YHrgF+B1YmZ3441tMj5n63k0212XNoJwzlhffQw==
 
+glob-parent@~5.1.2:
+  version "5.1.2"
+  resolved "https://registry.npmmirror.com/glob-parent/-/glob-parent-5.1.2.tgz#869832c58034fe68a4093c17dc15e8340d8401c4"
+  integrity sha512-AOIgSQCepiJYwP3ARnGx+5VnTu2HBYdzbGP45eLw1vr3zB3vZLeyed1sC9hnbcOc9/SrMyM5RPQrkGz4aS9Zow==
+  dependencies:
+    is-glob "^4.0.1"
+
 he@^1.2.0:
   version "1.2.0"
   resolved "https://registry.npmmirror.com/he/-/he-1.2.0.tgz#84ae65fa7eafb165fddb61566ae14baf05664f0f"
   integrity sha512-F/1DnUGPopORZi0ni+CvrCgHQ5FyEAHRLSApuYWMmrbSwoN2Mn/7k+Gl38gJnR7yyDZk6WLXwiGod1JOWNDKGw==
 
+immutable@^4.0.0:
+  version "4.3.4"
+  resolved "https://registry.npmmirror.com/immutable/-/immutable-4.3.4.tgz#2e07b33837b4bb7662f288c244d1ced1ef65a78f"
+  integrity sha512-fsXeu4J4i6WNWSikpI88v/PcVflZz+6kMhUfIwc5SY+poQRPnaf5V7qds6SUyUN3cVxEzuCab7QIoLOQ+DQ1wA==
+
 inherits@^2.0.3:
   version "2.0.4"
   resolved "https://registry.npmmirror.com/inherits/-/inherits-2.0.4.tgz#0fa2c64f932917c3433a0ded55363aae37416b7c"
   integrity sha512-k/vGaX4/Yla3WzyMCvTQOXYeIHvqOKtnqBduzTHpzpQZzAskKMhZ2K+EnBiSM9zGSoIFeMpXKxa4dYeZIQqewQ==
+
+is-binary-path@~2.1.0:
+  version "2.1.0"
+  resolved "https://registry.npmmirror.com/is-binary-path/-/is-binary-path-2.1.0.tgz#ea1f7f3b80f064236e83470f86c09c254fb45b09"
+  integrity sha512-ZMERYes6pDydyuGidse7OsHxtbI7WVeUEozgR/g7rd0xUimYNlvZRE/K2MgZTjWy725IfelLeVcEM97mmtRGXw==
+  dependencies:
+    binary-extensions "^2.0.0"
+
+is-extglob@^2.1.1:
+  version "2.1.1"
+  resolved "https://registry.npmmirror.com/is-extglob/-/is-extglob-2.1.1.tgz#a88c02535791f02ed37c76a1b9ea9773c833f8c2"
+  integrity sha512-SbKbANkN603Vi4jEZv49LeVJMn4yGwsbzZworEoyEiutsN3nJYdbO36zfhGJ6QEDpOZIFkDtnq5JRxmvl3jsoQ==
+
+is-glob@^4.0.1, is-glob@~4.0.1:
+  version "4.0.3"
+  resolved "https://registry.npmmirror.com/is-glob/-/is-glob-4.0.3.tgz#64f61e42cbbb2eec2071a9dac0b28ba1e65d5084"
+  integrity sha512-xelSayHH36ZgE7ZWhli7pW34hNbNl8Ojv5KVmkJD4hBdD3th8Tfk9vYasLM+mXWOZhFkgZfxhLSnrwRr4elSSg==
+  dependencies:
+    is-extglob "^2.1.1"
+
+is-number@^7.0.0:
+  version "7.0.0"
+  resolved "https://registry.npmmirror.com/is-number/-/is-number-7.0.0.tgz#7535345b896734d5f80c4d06c50955527a14f12b"
+  integrity sha512-41Cifkg6e8TylSpdtTpeLVMqvSBEVzTttHvERD741+pnZ8ANv0004MRL43QKPDlK9cGvNp6NZWZUBlbGXYxxng==
 
 jszip@2.4.0:
   version "2.4.0"
@@ -425,6 +625,11 @@ minimatch@^9.0.0:
   dependencies:
     brace-expansion "^2.0.1"
 
+mitt@^2.1.0:
+  version "2.1.0"
+  resolved "https://registry.npmmirror.com/mitt/-/mitt-2.1.0.tgz#f740577c23176c6205b121b2973514eade1b2230"
+  integrity sha512-ILj2TpLiysu2wkBbWjAmww7TkZb65aiQO+DkVdUTBpBXq+MHYiETENkKFMtsJZX1Lf4pe4QOrTSjIfUwN5lRdg==
+
 muggle-string@^0.3.1:
   version "0.3.1"
   resolved "https://registry.npmmirror.com/muggle-string/-/muggle-string-0.3.1.tgz#e524312eb1728c63dd0b2ac49e3282e6ed85963a"
@@ -435,6 +640,16 @@ nanoid@^3.3.6:
   resolved "https://registry.npmmirror.com/nanoid/-/nanoid-3.3.6.tgz#443380c856d6e9f9824267d960b4236ad583ea4c"
   integrity sha512-BGcqMMJuToF7i1rt+2PWSNVnWIkGCU78jBG3RxO/bZlnZPK2Cmi2QaffxGO/2RvWi9sL+FAiRiXMgsyxQ1DIDA==
 
+neo-async@^2.6.2:
+  version "2.6.2"
+  resolved "https://registry.npmmirror.com/neo-async/-/neo-async-2.6.2.tgz#b4aafb93e3aeb2d8174ca53cf163ab7d7308305f"
+  integrity sha512-Yd3UES5mWCSqR+qNT93S3UoYUkqAZ9lLg8a7g9rimsWmYGK8cVToA4/sF3RrshdyV3sAGMXVUmpMYOw+dLpOuw==
+
+normalize-path@^3.0.0, normalize-path@~3.0.0:
+  version "3.0.0"
+  resolved "https://registry.npmmirror.com/normalize-path/-/normalize-path-3.0.0.tgz#0dcd69ff23a1c9b11fd0978316644a0388216a65"
+  integrity sha512-6eZs5Ls3WtCisHWp9S2GUy8dqkpGi4BVSz3GaqiE6ezub0512ESztXUwUB6C6IKbQkY2Pnb/mD4WYojCRwcwLA==
+
 pako@~0.2.5:
   version "0.2.9"
   resolved "https://registry.npmmirror.com/pako/-/pako-0.2.9.tgz#f3f7522f4ef782348da8161bad9ecfd51bf83a75"
@@ -444,6 +659,11 @@ picocolors@^1.0.0:
   version "1.0.0"
   resolved "https://registry.npmmirror.com/picocolors/-/picocolors-1.0.0.tgz#cb5bdc74ff3f51892236eaf79d68bc44564ab81c"
   integrity sha512-1fygroTLlHu66zi26VoTDv8yRgm0Fccecssto+MhsZ0D/DGW2sm8E8AjW7NU5VVTRt5GxbeZ5qBuJr+HyLYkjQ==
+
+picomatch@^2.0.4, picomatch@^2.2.1:
+  version "2.3.1"
+  resolved "https://registry.npmmirror.com/picomatch/-/picomatch-2.3.1.tgz#3ba3833733646d9d3e4995946c1365a67fb07a42"
+  integrity sha512-JU3teHTNjmE2VCGFzuY8EXzCDVwEqB2a8fsIvwaStHhAWJEeVd1o1QD80CU6+ZdEXXSLbSsuLwJjkCBWqRQUVA==
 
 postcss@^8.1.10, postcss@^8.4.27:
   version "8.4.30"
@@ -463,6 +683,13 @@ readable-stream@^3.0.2:
     string_decoder "^1.1.1"
     util-deprecate "^1.0.1"
 
+readdirp@~3.6.0:
+  version "3.6.0"
+  resolved "https://registry.npmmirror.com/readdirp/-/readdirp-3.6.0.tgz#74a370bd857116e245b29cc97340cd431a02a6c7"
+  integrity sha512-hOS089on8RduqdbhvQ5Z37A0ESjsqz6qnRcffsMU3495FuTdqSm+7bhJ29JvIOsBDEEnan5DPu9t3To9VRlMzA==
+  dependencies:
+    picomatch "^2.2.1"
+
 rollup@^3.27.1:
   version "3.29.2"
   resolved "https://registry.npmmirror.com/rollup/-/rollup-3.29.2.tgz#cbc76cd5b03b9f9e93be991d23a1dff9c6d5b740"
@@ -475,6 +702,22 @@ safe-buffer@~5.2.0:
   resolved "https://registry.npmmirror.com/safe-buffer/-/safe-buffer-5.2.1.tgz#1eaf9fa9bdb1fdd4ec75f58f9cdb4e6b7827eec6"
   integrity sha512-rp3So07KcdmmKbGvgaNxQSJr7bGVSVk5S9Eq1F+ppbRo70+YeaDxkw5Dd8NPN+GD6bjnYm2VuPuCXmpuYvmCXQ==
 
+sass-loader@^13.3.2:
+  version "13.3.2"
+  resolved "https://registry.npmmirror.com/sass-loader/-/sass-loader-13.3.2.tgz#460022de27aec772480f03de17f5ba88fa7e18c6"
+  integrity sha512-CQbKl57kdEv+KDLquhC+gE3pXt74LEAzm+tzywcA0/aHZuub8wTErbjAoNI57rPUWRYRNC5WUnNl8eGJNbDdwg==
+  dependencies:
+    neo-async "^2.6.2"
+
+sass@^1.69.5:
+  version "1.69.5"
+  resolved "https://registry.npmmirror.com/sass/-/sass-1.69.5.tgz#23e18d1c757a35f2e52cc81871060b9ad653dfde"
+  integrity sha512-qg2+UCJibLr2LCVOt3OlPhr/dqVHWOa9XtZf2OjbLs/T4VPSJ00udtgJxH3neXZm+QqX8B+3cU7RaLqp1iVfcQ==
+  dependencies:
+    chokidar ">=3.0.0 <4.0.0"
+    immutable "^4.0.0"
+    source-map-js ">=0.6.2 <2.0.0"
+
 semver@^7.3.8:
   version "7.5.4"
   resolved "https://registry.npmmirror.com/semver/-/semver-7.5.4.tgz#483986ec4ed38e1c6c48c34894a9182dbff68a6e"
@@ -482,7 +725,7 @@ semver@^7.3.8:
   dependencies:
     lru-cache "^6.0.0"
 
-source-map-js@^1.0.2:
+"source-map-js@>=0.6.2 <2.0.0", source-map-js@^1.0.2:
   version "1.0.2"
   resolved "https://registry.npmmirror.com/source-map-js/-/source-map-js-1.0.2.tgz#adbc361d9c62df380125e7f161f71c826f1e490c"
   integrity sha512-R0XvVJ9WusLiqTCEiGCmICCMplcCkIwwR11mOSD9CR5u+IXYdiseeEuXCVAjS54zqwkLcPNnmU4OeJ6tUrWhDw==
@@ -509,6 +752,13 @@ string_decoder@^1.1.1:
   integrity sha512-hkRX8U1WjJFd8LsDJ2yQ/wWWxaopEsABU1XfkM8A+j0+85JAGppt16cr1Whg6KIbb4okU6Mql6BOj+uup/wKeA==
   dependencies:
     safe-buffer "~5.2.0"
+
+to-regex-range@^5.0.1:
+  version "5.0.1"
+  resolved "https://registry.npmmirror.com/to-regex-range/-/to-regex-range-5.0.1.tgz#1648c44aae7c8d988a326018ed72f5b4dd0392e4"
+  integrity sha512-65P7iz6X5yEr1cwcgvQxbbIw7Uk3gOy5dIdtZ4rDveLqhrdJP+Li/Hx6tyK0NEb+2GCyneCMJiGqrADCSNk8sQ==
+  dependencies:
+    is-number "^7.0.0"
 
 typedarray@^0.0.6:
   version "0.0.6"
@@ -540,6 +790,19 @@ voc@:
   version "1.2.0"
   resolved "https://registry.npmmirror.com/voc/-/voc-1.2.0.tgz#c459024531d71067c09e2c0c2bda6c2b13af32d8"
   integrity sha512-BOuDjFFYvJdZO6e/N65AlaDItXo2TgyLjeyRYcqgAPkXpp5yTJcvkL2n+syO1r9Qc5g96tfBD2tuiMhYDmaGcA==
+
+vue-grid-layout@3.0.0-beta1:
+  version "3.0.0-beta1"
+  resolved "https://registry.npmmirror.com/vue-grid-layout/-/vue-grid-layout-3.0.0-beta1.tgz#f8ce8eb7dbb1ff58f64820332afcc12c8cf873aa"
+  integrity sha512-MsW0yfYNtnAO/uDhfZvkP6effxSJxvhAFbIL37x6Rn3vW9xf0WHVefKaSbQMLpSq3mXnR6ut0pg2Cd5lqIIZzg==
+  dependencies:
+    "@interactjs/actions" "^1.10.2"
+    "@interactjs/auto-start" "^1.10.2"
+    "@interactjs/dev-tools" "^1.10.2"
+    "@interactjs/interactjs" "^1.10.2"
+    "@interactjs/modifiers" "^1.10.2"
+    element-resize-detector "^1.2.1"
+    mitt "^2.1.0"
 
 vue-template-compiler@^2.7.14:
   version "2.7.14"

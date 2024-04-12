@@ -1,0 +1,25 @@
+{
+  "name": "root",
+  "version": "0.0.0",
+  "private": true,
+  "scripts": {
+    "setup": "yarn && lerna bootstrap && lerna link --force-local",
+    "clean": "lerna clean && rm -rf node_modules",
+    "build": "lerna run build",
+    "dev": "lerna run dev --no-sort",
+    "prepare": "husky install",
+    "test": "lerna run test",
+    "lint": "eslint packages/**/src",
+    "fix": "prettier --write packages/**/src/"
+  },
+  "devDependencies": {
+    "lerna": "^4.0.0"
+  },
+  "resolutions": {
+    "lerna": "7.4.2",
+    "vite": "5.0.6"
+  },
+  "workspaces": [
+    "packages/*"
+  ]
+}

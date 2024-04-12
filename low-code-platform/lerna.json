@@ -1,0 +1,8 @@
+{
+  "packages": [
+    "packages/*"
+  ],
+  "npmClient": "yarn",
+  "description": "A Component Library for Vue3.0",
+  "version": "0.0.0"
+}

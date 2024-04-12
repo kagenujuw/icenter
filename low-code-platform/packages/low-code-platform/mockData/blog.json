@@ -1,0 +1,16 @@
+{
+  "code": "0000",
+  "data": [
+    {
+      "blogName": "vite下一代的前端工具链",
+      "imageUrl": "https://img-blog.csdnimg.cn/8441a1c7b63b4e60abebafecea16e16a.png",
+      "desc": "CSS 的默认处理行为CSS 模块化处理CSS 预处理器CSS 兼容性处理限定大小的图片转为 Base64 编码JSON 的导入JSON 支持具名导入"
+    },
+    {
+      "blogName": "Vite静态资源处理",
+      "imageUrl": "https://img-blog.csdnimg.cn/8441a1c7b63b4e60abebafecea16e16a.png",
+      "desc": "Vite（法语意为 “快速的”，发音 /vit/，发音同 “veet”）是一种新型前端构建工具，能够显著提升前端开发体验，其最大的特点就是快 ！"
+    }
+  ],
+  "message": "成功"
+}

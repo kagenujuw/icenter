@@ -213,3 +213,48 @@ function filterXss(content) {
   elem = null;
   return result;
 }
+
+/**
+ * 生成 uuid 的代码片段
+ * @param {*} a 
+ * @returns 
+ */
+export const uuid = (a) => {
+  a ? (a ^ ((Math.random() * 16) >> (a / 4))).toString(16) : ([1e7] + -1e3 + -4e3 + -8e3 + -1e11).replace(/[018]/g, uuid)
+  return a
+}
+
+/**
+ * 限制并发
+ * @param {*} poolLimit 
+ * @param {*} iterable 
+ * @param {*} iteratorFn 
+ * @returns 
+ */
+async function asyncPool(poolLimit, iterable, iteratorFn) {
+  // 用于保存所有异步请求
+  const ret = [];
+  // 用户保存正在进行的请求
+  const executing = new Set();
+  for (const item of iterable) {
+    // 构造出请求 Promise
+    const p = Promise.resolve().then(() => iteratorFn(item, iterable));
+    ret.push(p);
+    executing.add(p);
+    // 请求执行结束后从正在进行的数组中移除
+    const clean = () => executing.delete(p);
+    p.then(clean).catch(clean);
+    // 如果正在执行的请求数大于并发数，就使用 Promise.race 等待一个最快执行完的请求
+    if (executing.size >= poolLimit) {
+      await Promise.race(executing);
+    }
+  }
+  // 返回所有结果
+  return Promise.all(ret);
+}
+
+// 使用方法
+const timeout = i => new Promise(resolve => setTimeout(() => resolve(i), i));
+asyncPool(2, [1000, 5000, 3000, 2000], timeout).then(results => {
+  console.log(results)
+})

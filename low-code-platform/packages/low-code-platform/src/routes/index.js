@@ -30,7 +30,12 @@ const routes = [
   {
     path: '/',
     redirect:'/home'
-  }
+  },
+  {
+    path: '/timeline',
+    name: 'timeline',
+    component: () => import('@/views/timeline/index.vue')
+  },
 ]
 const router = createRouter({
   history: createWebHashHistory (),
